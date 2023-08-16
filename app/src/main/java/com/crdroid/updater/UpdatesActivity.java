@@ -501,7 +501,7 @@ public class UpdatesActivity extends UpdatesListActivity implements UpdateImport
                 DateFormat.LONG, BuildInfoUtils.getBuildDateTimestamp())));
 
         TextView headerBuildType = findViewById(R.id.header_build_type);
-        String buildType = Utils.getBuildType();
+        String buildType = BuildInfoUtils.getBuildType();
         if (buildType == null || buildType.isEmpty()) {
             headerBuildType.setText(getString(R.string.build_type_unknown));
             LinearLayout supportLayout=(LinearLayout)this.findViewById(R.id.support_icons);

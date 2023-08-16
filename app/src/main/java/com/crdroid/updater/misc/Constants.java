@@ -41,6 +41,7 @@ public final class Constants {
     public static final String PROP_AB_DEVICE = "ro.build.ab_update";
     public static final String PROP_BUILD_DATE = "ro.build.date.utc";
     public static final String PROP_BUILD_VERSION = "ro.modversion";
+    public static final String PROP_BUILD_TYPE = "ro.crdroid.build.package";
     public static final String PROP_DEVICE = "ro.crdroid.device";
     public static final String PROP_NEXT_DEVICE = "ro.updater.next_device";
     public static final String PROP_UPDATER_ALLOW_DOWNGRADING = "crdroid.updater.allow_downgrading";
